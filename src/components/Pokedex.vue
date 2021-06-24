@@ -1,15 +1,15 @@
 <template>
 	<div class="pokedex">
 		<TopPanel />
-		<!-- <LeftPanel class="pokedex--left" />
-		<Divider />
+		<LeftPanel class="pokedex--left" />
+		<!-- <Divider />
 		<RightPanel class="pokedex--right" /> -->
 	</div>
 </template>
 
 <script>
 	import TopPanel from './TopPanel/TopPanel.vue';
-	// import LeftPanel from './LeftPanel/LeftPanel.vue';
+	import LeftPanel from './LeftPanel/LeftPanel.vue';
 	// import RightPanel from './RightPanel/RightPanel.vue';
 	// import Divider from './Divider/Divider.vue';
 
@@ -17,7 +17,7 @@
 		name: 'Pokedex',
 		components: {
 			TopPanel,
-			// LeftPanel,
+			LeftPanel,
 			// RightPanel,
 			// Divider,
 		},
